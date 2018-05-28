@@ -1,0 +1,45 @@
+{
+  "name": "@vesta/driver-oracle",
+  "version": "1.0.11",
+  "description": "Vesta Platform Oracle Database drievr based on Database Class on @vesta/core",
+  "keywords": [
+    "NodeJS",
+    "TypeScript",
+    "Database",
+    "Oracle",
+    "Schema"
+  ],
+  "main": "Oracle.js",
+  "typings": "Oracle.d.ts",
+  "author": "javadkh2 <khalilian.javad@gmail.com>",
+  "contributors": [
+    "hbtb <bishehsary@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/VestaRayanAfzar/vesta-driver-oracle/issues",
+    "email": "khalilian.javad@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VestaRayanAfzar/vesta-driver-oracle.git"
+  },
+  "scripts": {
+    "dev": "gulp dev[es6]",
+    "deploy": "gulp publish"
+  },
+  "dependencies": {
+    "@vesta/core": "^1.1.8",
+    "oracledb": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/oracledb": "^1.11.34",
+    "@types/jasmine": "^2.5.47",
+    "@vesta/devmaid": "^0.3.3",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "tslint": "^5.9.1"
+  },
+  "private": true
+}
